@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<form action="">
+<div class="controleform">
+    <label for="cpf">Digite o codigo</label>
+    <input type="number" id="codigo" value="00000" disabled>
+</div>
+
+<div class="controleform">
+    <label for="cpf">Digite seu nome</label>
+    <input type="text" id="nome" placeholder="Hian Araujo">
+</div>
+
+<div class="controleform">
+    <label for="cpf">Digite seu CPF</label>
+    <input type="text" id="cpf" maxlength="11" placeholder="123.456.789-00">
+</div>
+
+<div class="controleform">
+    <label for="email">Digite seu email</label>
+    <input type="email" id="email" required autocomplete="email" placeholder="nome@gmail.com">
+</div>  
+
+<div class="controleform">
+    <label for="idade">Digite sua idade</label>
+    <input type="number" id="idade" min="0" max="133" placeholder="22">
+</div>
+
+<div class="controleform">
+    <label for="altura">Digite sua altura</label>
+    <input type="number" id="Altura" min="0.1" max="2.5" step="0.01" placeholder="altura">
+</div>
+
+<div class="controleform">
+    <label for="peso">Digite seu peso</label>
+    <input type="number" id="peso" min="0" max="595" step="0.5" placeholder="peso">
+</div>
+
+<div class="controleform">
+    <label for="nascimento">Data de nascimento</label>
+    <input type="date" id="nascimento">
+</div>
+
+<div class="controleform">
+    <label for="dataCadastro">Data de cadastro</label>
+    <input type="date" id="dataCadastro">
+</div>
+
+<div class="controleform">
+    <label for="horaCadastro">Hora de cadastro</label>
+    <input type="time" id="horaCadastro">
+</div>
+
+<div class="controleform">
+    <button type="submit" value="Enviar">Enviar</button>
+</div>
+
+<div class="controleform">
+    <button type="reset" value="Reset">Reset</button>
+</div>
+
+
+</form>
+</body>
+</html>
